@@ -1,38 +1,39 @@
-# Software Engineer Portfolio
+# Lybrook Omondi - Software Engineer Portfolio
 
-Welcome to my personal portfolio website! This project showcases my skills, projects, and provides a way to get in touch. The portfolio is built using simple HTML and CSS to ensure it's lightweight, responsive, and easy to navigate.
+This is a personal portfolio website for showcasing my skills, services, and work as a Software Engineer and Full Stack Developer. The website is designed to be a simple, clean, and professional way to present my technical background, projects, and contact details.
 
 ## Table of Contents
-- [Demo](#demo)
+
+- [Overview](#overview)
+- [Technologies](#technologies)
+- [File Structure](#file-structure)
 - [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
+- [Setup Instructions](#setup-instructions)
+- [Contributing](#contributing)
 - [License](#license)
 
-## Demo
+## Overview
 
-You can view the live demo of this portfolio [here](#).
+The portfolio features:
+- An **About Me** section outlining my background, education, and interests.
+- A **Skills** section highlighting my expertise in both front-end and back-end development, as well as tools I use regularly.
+- A **Services** section explaining the type of work I offer, such as web development, design, and SEO optimization.
+- A **Contact** form to allow users or potential clients to get in touch with me easily.
 
-## Features
+## Technologies
 
-- **Responsive Design**: The layout is fully responsive and works well on all screen sizes.
-- **Skills Section**: Highlights my technical skills in frontend, backend, databases, and tools.
-- **Projects Section**: Displays some of my best work, each with a description and link to the source code.
-- **Contact Section**: Provides links to my email, LinkedIn, and GitHub for easy communication.
+The following technologies are used in this project:
 
-## Technologies Used
+- **HTML5** for the structure of the webpage.
+- **CSS3** for styling and layout.
+- **JavaScript** (optional) for potential interactivity enhancements.
+- **FontAwesome** icons (via CDN) for clean and scalable iconography.
+- **Responsive Design** via the `meta` viewport tag to ensure the website looks good on mobile and desktop devices.
 
-- **HTML5**: For structuring the content of the webpage.
-- **CSS3**: For styling the website and making it responsive.
-- **Flexbox**: Used for the layout in skills and projects sections.
-- **GitHub Pages** (optional): For hosting the website live.
+## File Structure
 
-## Installation
-
-If you want to run this project locally, follow these steps:
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/portfolio.git
+```bash
+├── index.html          # Main HTML file
+├── styles.css          # CSS file for styling the portfolio
+├── /images             # Folder containing any image assets (e.g., profile picture)
+└── README.md           # This README file

@@ -6,18 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Software Engineer Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fontawesome.com/icons">
 </head>
 <body>
     <header>
         <div class="container" style="margin-left: 20px;">
-            <h1>Lybrook <span style="color: brown;">Omondi</span></h1>
+            <h1>LYBROOK <span style="color: brown;">OMONDI</span></h1>
             <p>Software Engineer | Full Stack Developer</p>
         </div>
             <nav>
                 <ul>
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">My Services</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -32,7 +33,7 @@
               </div>
                 <div class="about-col-2" >
                     <h1 class="information ">About me</h1>
-                    <p>I’m a passionate software engineer with a strong foundation in Python and JavaScript With 2 years of experience in web development, I thrive on creating innovative solutions that enhance user experience and streamline processes.
+                    <p class="passion">I’m a passionate software engineer with a strong foundation in Python and JavaScript With 2 years of experience in web development, I thrive on creating innovative solutions that enhance user experience and streamline processes.
 
                         I hold a degree in applied computer science from Chuka University and have worked on a variety of projects, developing responsive web applications. My approach combines technical expertise with a keen eye for detail, allowing me to deliver high-quality code and effective collaboration with cross-functional teams.
                         
@@ -70,24 +71,21 @@
         </div>
     </section>
 
-    <section id="projects">
+    <section id="services">
         <div class="container">
-            <h2>Projects</h2>
-            <div class="projects-list">
-                <div class="project">
-                    <h3>Project 1</h3>
-                    <p>A web-based application that allows users to manage tasks efficiently. Built with React and Node.js.</p>
-                    <a href="#">View on GitHub</a>
+            <h1>My Services</h1>
+            <div class="services-list">
+                <div class="service-item">
+                    <h2>Web Design</h2>
+                    <p>Creating visually appealing and user-friendly websites.</p>
                 </div>
-                <div class="project">
-                    <h3>Project 2</h3>
-                    <p>An e-commerce platform with a custom content management system. Developed using Django and PostgreSQL.</p>
-                    <a href="#">View on GitHub</a>
+                <div class="service-item">
+                    <h2>Web Development</h2>
+                    <p>Building responsive and efficient web applications.</p>
                 </div>
-                <div class="project">
-                    <h3>Project 3</h3>
-                    <p>A mobile app for tracking fitness activities, developed with React Native and Firebase.</p>
-                    <a href="#">View on GitHub</a>
+                <div class="service-item">
+                    <h2>SEO Optimization</h2>
+                    <p>Improving website visibility on search engines.</p>
                 </div>
             </div>
         </div>
@@ -95,19 +93,26 @@
 
     <section id="contact">
         <div class="container">
-            <h2>Contact</h2>
-            <p>If you'd like to get in touch, feel free to reach out via email or LinkedIn.</p>
-            <ul>
-                <li>Email: john.doe@email.com</li>
-                <li><a href="#">LinkedIn</a></li>
-                <li><a href="#">GitHub</a></li>
-            </ul>
+           <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p style="color: brown;font-size: 20px;">omoshlybrook@gmail.com</p>
+                <p style="color: brown;font-size: 20px;">0748344514</p>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 John Doe. All rights reserved.</p>
+            <p>&copy; 2024 Lybrook Omondi. All rights reserved.</p>
         </div>
     </footer>
 </body>
